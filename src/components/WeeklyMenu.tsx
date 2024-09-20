@@ -1,6 +1,10 @@
 import BackgroundWrapper from "./BackgroundWrapper";
 import { A5VerticalPage } from "./Page";
-import Heart from "./svg/Heart";
+import { ReactComponent as Mushroom } from "../assets/svg/mushroom.svg";
+import { ReactComponent as Wheat } from "../assets/svg/wheat.svg";
+import { ReactComponent as Fish } from "../assets/svg/fish.svg";
+import { ReactComponent as Potato } from "../assets/svg/potato.svg";
+import { ReactComponent as Cheese } from "../assets/svg/cheese.svg";
 
 const days = ["Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag", "Søndag"];
 
@@ -11,29 +15,7 @@ export default function WeeklyMenuA5() {
         <div className="h-full w-full grid grid-cols-2 grid-rows-7 pt-[8%]">
           {days.map((day) => {
             return (
-              <div key={day} className="relative col-start-1 col-span-1">
-              {/*<BackgroundWrapper>
-                  <svg viewBox="0 0 100 41">
-                    <path
-                      className="fill-gray-200"
-                      d={`
-                      M 0,5
-                      l 2.5 -2.5
-                      h 42.5
-                      a 7,7 0 0 1 10 0
-                      h 42.5
-                      l 2.5 2.5
-                      h -1.4
-                      l -1.5 -1.5
-                      h -42.8
-                      a 6,6 0 0 0 -8.6 0
-                      h -42.8
-                      l -1.5 1.5
-                      Z
-                  `}
-                    />
-                  </svg>
-                </BackgroundWrapper>*/}
+              <div key={day} className="relative col-start-1 col-span-1 border-mantle border-b">
                 <div className="flex px-[1mm] pt-[2mm] pb-[1mm]">
                   <h2 className="text-2xl text-text">{day}</h2>
                   <span className="h-[9mm] border-b border-b-text" style={{ flex: "1 1 100%" }} />
@@ -56,11 +38,24 @@ export default function WeeklyMenuA5() {
           </div>
         </div>
         <BackgroundWrapper>
+          <Mushroom className="text-mantle text-6xl" />
+          <Wheat className="text-mantle text-6xl" />
+          <Fish className="text-mantle text-6xl" />
+          <Potato className="text-mantle text-6xl" />
+          <div className="absolute bottom-0 right-0 flex flex-col">
+            <Potato className="text-mantle text-6xl" />
+            <Mushroom className="text-mantle text-6xl" />
+            <Cheese className="text-mantle text-6xl" />
+            <Wheat className="text-mantle text-6xl" />
+            <Fish className="text-mantle text-6xl" />
+          </div>
+        </BackgroundWrapper>
+        <BackgroundWrapper>
           <svg viewBox="0 0 210 297">
             <path
-              className="fill-gray-200"
+              className="fill-mantle"
               d={`
-              M 109, 8
+              M 109, 2
               h 75
               v 7
               h 5
@@ -79,12 +74,7 @@ export default function WeeklyMenuA5() {
               Z
             `}
             />
-            <Heart
-              className="fill-gray-400 stroke-gray-500"
-              strokeWidth={1.5}
-              transform="translate(197.5, 9.5) scale(0.3) rotate(45)"
-            />
-            <circle className="fill-white" cx={198.75} cy={17.25} r={8.5} />
+            <circle className="fill-white" cx={198.75} cy={11.25} r={8.5} />
           </svg>
         </BackgroundWrapper>
       </div>

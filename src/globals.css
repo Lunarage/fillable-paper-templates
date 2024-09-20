@@ -586,6 +586,22 @@ video {
   inset: 0;
 }
 
+.bottom-0 {
+  bottom: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -634,6 +650,10 @@ video {
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-a4x {
   width: 210mm;
 }
@@ -650,6 +670,10 @@ video {
   width: 100%;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -662,12 +686,20 @@ video {
   grid-template-rows: repeat(7, minmax(0, 1fr));
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-around {
@@ -691,9 +723,19 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-mantle {
+  --tw-border-opacity: 1;
+  border-color: rgba(var(--ctp-mantle), var(--tw-border-opacity));
+}
+
 .border-b-text {
   --tw-border-opacity: 1;
   border-bottom-color: rgba(var(--ctp-text), var(--tw-border-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .fill-gray-200 {
@@ -708,12 +750,16 @@ video {
   fill: rgb(var(--ctp-pink));
 }
 
-.fill-text {
-  fill: rgb(var(--ctp-text));
-}
-
 .fill-white {
   fill: #fff;
+}
+
+.fill-base {
+  fill: rgb(var(--ctp-base));
+}
+
+.fill-mantle {
+  fill: rgb(var(--ctp-mantle));
 }
 
 .stroke-gray-500 {
@@ -749,22 +795,49 @@ video {
   padding-top: 8%;
 }
 
-.pt-\[9\%\] {
-  padding-top: 9%;
-}
-
-.pt-\[10\%\] {
-  padding-top: 10%;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-surface0 {
+  --tw-text-opacity: 1;
+  color: rgba(var(--ctp-surface0), var(--tw-text-opacity));
+}
+
 .text-text {
   --tw-text-opacity: 1;
   color: rgba(var(--ctp-text), var(--tw-text-opacity));
+}
+
+.text-base {
+  --tw-text-opacity: 1;
+  color: rgba(var(--ctp-base), var(--tw-text-opacity));
+}
+
+.text-mantle {
+  --tw-text-opacity: 1;
+  color: rgba(var(--ctp-mantle), var(--tw-text-opacity));
 }
 
 * {

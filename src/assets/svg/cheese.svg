@@ -1,0 +1,38 @@
+<svg
+  viewBox="-1 -1 15.756 9.465"
+  xmlns="http://www.w3.org/2000/svg"
+  style="stroke: currentColor; stroke-width: 0.5px; fill: none; display: inline-block; width: 1em; height: 1em;"
+  >
+    <path
+      stroke-linejoin="round"
+      d="M 0.2645836,2.9104165 7.7059901,1.2567707 C 8.2020835,1.8520833 9.1485994,1.5874999 9.1942716,0.92604148 L 12.170834,0.26458318 C 13.229167,1.0583333 13.49375,2.38125 13.49375,2.9104165 Z"
+    />
+    <path
+      stroke-linejoin="round"
+      d="m 0.2645836,2.9104165 1e-7,5.2916672 h 7.1437499 c 0.321472,-1.029504 1.795195,-1.029504 2.116667,0 H 13.49375 v -5.291667 z"
+    />
+    <circle
+       style="stroke-width: 0.33px;"
+       cx="5.4"
+       cy="6.3"
+       r="0.52"
+    />
+    <circle
+       style="stroke-width: 0.33px;"
+       cx="11.1"
+       cy="4.9"
+       r="0.7"
+    />
+    <circle
+       style="stroke-width: 0.33px;"
+       cx="2.2"
+       cy="5.5"
+       r="0.8"
+    />
+    <circle
+       style="stroke-width: 0.33px;"
+       cx="7.9"
+       cy="4.4"
+       r="0.55"
+    />
+</svg>
