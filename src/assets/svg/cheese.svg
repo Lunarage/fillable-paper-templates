@@ -1,38 +1,17 @@
 <svg
-  viewBox="-1 -1 15.756 9.465"
+  viewBox="-6 -9 72 75"
+  style="fill:none;stroke:currentColor;"
   xmlns="http://www.w3.org/2000/svg"
-  style="stroke: currentColor; stroke-width: 0.5px; fill: none; display: inline-block; width: 1em; height: 1em;"
-  >
-    <path
-      stroke-linejoin="round"
-      d="M 0.2645836,2.9104165 7.7059901,1.2567707 C 8.2020835,1.8520833 9.1485994,1.5874999 9.1942716,0.92604148 L 12.170834,0.26458318 C 13.229167,1.0583333 13.49375,2.38125 13.49375,2.9104165 Z"
-    />
-    <path
-      stroke-linejoin="round"
-      d="m 0.2645836,2.9104165 1e-7,5.2916672 h 7.1437499 c 0.321472,-1.029504 1.795195,-1.029504 2.116667,0 H 13.49375 v -5.291667 z"
-    />
-    <circle
-       style="stroke-width: 0.33px;"
-       cx="5.4"
-       cy="6.3"
-       r="0.52"
-    />
-    <circle
-       style="stroke-width: 0.33px;"
-       cx="11.1"
-       cy="4.9"
-       r="0.7"
-    />
-    <circle
-       style="stroke-width: 0.33px;"
-       cx="2.2"
-       cy="5.5"
-       r="0.8"
-    />
-    <circle
-       style="stroke-width: 0.33px;"
-       cx="7.9"
-       cy="4.4"
-       r="0.55"
-    />
+>
+  <path
+    style="fill: var(--svgPrimaryColor); stroke-width:2.5px"
+    stroke-linejoin="round"
+    d="M 59.972439,18.445257 V 29.78384 c -2.226211,0 -3.779528,1.997841 -3.779528,3.779528 0,1.781686 1.619429,3.779527 3.779528,3.779527 V 52.461006 H 22.177165 c 0,-2.181659 -1.997841,-3.779528 -3.779528,-3.779528 -1.781686,0 -3.779527,1.676189 -3.779527,3.779528 H 3.2795277 c -1.983345,0 -3.779527,-1.674604 -3.779527,-3.779528 V 22.224785 c -10e-7,-1.805213 1.806792,-3.779527 3.779527,-3.779528 z m -60.4724383,3.779528 c 0,-7.559055 11.3420673,-21.42250524 22.6771643,-22.67716624 0.553249,-0.06124 1.614833,-0.08651 2.381114,0.124441 1.398413,0.384976 35.41416,18.77319724 35.41416,18.77319724 H 3.2795277 c -1.86993,0 -3.779527,1.883311 -3.779527,3.779528 z"
+  />
+  <circle style="fill: var(--svgSecondaryColor); stroke-width:1.8px" cx="12.031144" cy="28.039654" r="3.3379457" />
+  <circle style="fill: var(--svgSecondaryColor); stroke-width:1.8px" cx="8.3798819" cy="42.366718" r="2.4176157" />
+  <circle style="fill: var(--svgSecondaryColor); stroke-width:1.8px" cx="41.337791" cy="41.122421" r="3.5165362" />
+  <circle style="fill: var(--svgSecondaryColor); stroke-width:1.8px" cx="34.44178" cy="27.193333" r="2.5905049" />
+  <circle style="fill: var(--svgSecondaryColor); stroke-width:1.8px" cx="49.295158" cy="27.722725" r="1.7184129" />
+  <circle style="fill: var(--svgSecondaryColor); stroke-width:1.8px" cx="23.39139" cy="38.650856" r="2.2655852" />
 </svg>

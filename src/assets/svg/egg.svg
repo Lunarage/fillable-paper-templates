@@ -1,0 +1,14 @@
+<svg
+  viewBox="0 0 70 70"
+  xmlns="http://www.w3.org/2000/svg"
+  style="fill: none; width: 1em; height: 1em; stroke-width: 2.5px; stroke: currentColor;"
+>
+  <path
+    style="fill: var(--svgPrimaryColor)"
+    d="m 35.000001,5.0000004 c 10,0 19.999996,19.9999986 19.999998,34.9999986 0,15 -7.290663,24.999999 -19.999998,24.999999 -12.709335,0 -20.000002,-10 -20.000002,-24.999999 0,-15 10.000002,-34.9999986 20.000002,-34.9999986 z"
+  />
+  <path
+    stroke-linecap="round"
+    d="m 48,44.999999 c -1,7 -4.356051,10.667914 -9,12.999999"
+  />
+</svg>
