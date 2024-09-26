@@ -9,6 +9,7 @@
   />
   <path
     stroke-linecap="round"
+    style="stroke-width: 2px;"
     d="m 48,44.999999 c -1,7 -4.356051,10.667914 -9,12.999999"
   />
 </svg>

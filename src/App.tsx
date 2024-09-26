@@ -8,6 +8,9 @@ import BroccoliIcon from "./components/svg/BroccoliIcon";
 import CheeseIcon from "./components/svg/CheeseIcon";
 import EggIcon from "./components/svg/EggIcon";
 import OnionIcon from "./components/svg/OnionIcon";
+import StrawberryIcon from "./components/svg/StrawberryIcon";
+import TomatoIcon from "./components/svg/TomatoIcon";
+import BananaIcon from "./components/svg/BananaIcon";
 
 function App() {
   return (
@@ -41,6 +44,15 @@ function App() {
       </div>
       <div className="rounded-xl bg-base flex items-center justify-center aspect-square">
         <OnionIcon variant="color" />
+      </div>
+      <div className="rounded-xl bg-base flex items-center justify-center aspect-square">
+        <StrawberryIcon variant="color" />
+      </div>
+      <div className="rounded-xl bg-base flex items-center justify-center aspect-square">
+        <TomatoIcon variant="color" />
+      </div>
+      <div className="rounded-xl bg-base flex items-center justify-center aspect-square">
+        <BananaIcon variant="color" />
       </div>
     </div>
   );
